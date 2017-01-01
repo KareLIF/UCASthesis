@@ -1,0 +1,13 @@
+
+ \begin{theglossary} 
+
+    \makeatletter\scan@allowedfalse
+
+  \item v1.0 \efill 
+ \subitem General:\ Rebase from ThuThesis v4.8。为防止后续开发工作混淆，在UCASThesis中清空了过往的changes ，如有需要查阅先前changelog的开发者，请参照ThuThesis的github log。本版本重新适应了中国科学院大学学位论文需求，并重新 定义版本号为v1.0。论文模板的一些针对清华大学学位论文文档格式的细致说明问题，由于我本人时间精力有限，目前并未进行较大 改动，请各位见谅。\pfill 
+		1
+  \item v1.1 \efill 
+ \subitem General:\ 向上兼容支持Tex2015, CTEX2.0+，同时开始使用固定字体配置。\pfill 
+		1
+
+ \end{theglossary}

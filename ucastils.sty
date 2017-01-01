@@ -4,10 +4,18 @@
 %\RequirePackage{bm}
 
 % 不同于~|\mathcal| or |\mathfrak| 之类的英文花体字体
-%\RequirePackage{mathrsfs}
+\RequirePackage{mathrsfs}
 
 % 表格中支持跨行
 \RequirePackage{multirow}
+
+%引用的宏包和相应的定义
+%\RequirePackage{ifthen,calc}
+
+%AMS-TEX 宏包，用来排出更加漂亮的公式
+\RequirePackage{amsmath}
+
+\RequirePackage{txfonts}
 
 % 跨页表格
 %\RequirePackage{longtable}
@@ -20,6 +28,12 @@
 
 % 确定浮动对象的位置，可以使用~H，强制将浮动对象放到这里（可能效果很差）
 \RequirePackage{float}
+
+\RequirePackage{indentfirst}
+%并排图形
+\RequirePackage{graphicx}
+
+%更好的列表环境\RequirePackage[neverdecrease]{paralist}\setdefaultleftmargin{3em}{2.2em}{1.87em}{1.7em}{1em}{1em}
 
 % 增加多行下划线的包
 %\RequirePackage[normalem]{ulem}
